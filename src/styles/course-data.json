@@ -1,0 +1,419 @@
+{
+  "title": "FULL_STACK_PROTOCOL v2.4.1",
+  "phases": [
+    {
+      "id": "fundamentos",
+      "name": "Fundamentos",
+      "short": "CORE",
+      "topics": [
+        {
+          "id": "terminal",
+          "name": "Terminal",
+          "icon": "🖥️",
+          "desc": "Domina la línea de comandos: navegación de directorios, gestión de archivos, permisos, variables de entorno y scripts bash.",
+          "phase": "Fundamentos",
+          "status": "done",
+          "mainVideo": {
+            "title": "Terminal & Bash — Curso Completo",
+            "youtubeId": "neyTWTxz02g",
+            "duration": "4h 32m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "Introducción a la terminal",  "desc": "¿Qué es la terminal y por qué usarla?" },
+            { "time": "12:30",   "label": "Navegación de directorios",   "desc": "cd, ls, pwd, tree" },
+            { "time": "28:45",   "label": "Gestión de ficheros",         "desc": "cp, mv, rm, mkdir, touch" },
+            { "time": "52:10",   "label": "Permisos y usuarios",         "desc": "chmod, chown, sudo" },
+            { "time": "1:18:00", "label": "Variables de entorno",        "desc": "export, PATH, .bashrc" },
+            { "time": "1:45:20", "label": "Pipes y redirecciones",       "desc": "| > >> < 2>&1" },
+            { "time": "2:10:00", "label": "Scripts Bash",                "desc": "Automatización con scripts" }
+          ],
+          "chapters": [
+            {
+              "title": "Primeros pasos en la terminal",
+              "youtubeId": "neyTWTxz02g",
+              "duration": "45m",
+              "startAt": 0,
+              "highlights": [
+                { "time": "0:00",  "label": "¿Qué es la terminal?" },
+                { "time": "12:30", "label": "Navegación básica" }
+              ]
+            },
+            {
+              "title": "Ficheros y permisos",
+              "youtubeId": "neyTWTxz02g",
+              "duration": "38m",
+              "startAt": 1680,
+              "highlights": [
+                { "time": "28:45", "label": "cp, mv, rm" },
+                { "time": "52:10", "label": "chmod y chown" }
+              ]
+            },
+            {
+              "title": "Scripting Bash avanzado",
+              "youtubeId": "neyTWTxz02g",
+              "duration": "52m",
+              "startAt": 7200,
+              "highlights": [
+                { "time": "2:10:00", "label": "Tu primer script" },
+                { "time": "2:45:00", "label": "Funciones y loops" }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "git",
+          "name": "Git",
+          "icon": "🌿",
+          "desc": "Control de versiones profesional: commits, ramas, merges, rebases y flujos de trabajo colaborativos con GitHub.",
+          "phase": "Fundamentos",
+          "status": "done",
+          "mainVideo": {
+            "title": "Git & GitHub — De cero a profesional",
+            "youtubeId": "tRZGeaHPoaw",
+            "duration": "5h 12m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "¿Qué es Git?",          "desc": "Control de versiones distribuido" },
+            { "time": "15:40",   "label": "Instalación y config",   "desc": "git config, SSH keys" },
+            { "time": "35:20",   "label": "Primeros commits",       "desc": "git init, add, commit, log" },
+            { "time": "1:02:00", "label": "Ramas (Branches)",       "desc": "branch, checkout, switch" },
+            { "time": "1:38:00", "label": "Merge y conflictos",     "desc": "Resolver conflictos de merge" },
+            { "time": "2:15:00", "label": "Rebase y cherry-pick",   "desc": "Reescribir la historia" },
+            { "time": "2:55:00", "label": "GitHub y Pull Requests", "desc": "Flujo colaborativo" }
+          ],
+          "chapters": [
+            {
+              "title": "Git desde cero",
+              "youtubeId": "tRZGeaHPoaw",
+              "duration": "55m",
+              "startAt": 0,
+              "highlights": [
+                { "time": "0:00",  "label": "Instalación" },
+                { "time": "35:20", "label": "Commits" }
+              ]
+            },
+            {
+              "title": "Ramas y merges",
+              "youtubeId": "tRZGeaHPoaw",
+              "duration": "48m",
+              "startAt": 3720,
+              "highlights": [
+                { "time": "1:02:00", "label": "Branches" },
+                { "time": "1:38:00", "label": "Merge" }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "html",
+          "name": "HTML",
+          "icon": "🧱",
+          "desc": "Estructura semántica de la web: etiquetas, atributos, formularios, accesibilidad y HTML5 avanzado.",
+          "phase": "Fundamentos",
+          "status": "active",
+          "mainVideo": {
+            "title": "HTML5 Completo — Semántica y Accesibilidad",
+            "youtubeId": "kUMe1FH4CHE",
+            "duration": "3h 48m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "Estructura básica HTML",  "desc": "DOCTYPE, head, body" },
+            { "time": "22:00",   "label": "Etiquetas semánticas",    "desc": "article, section, nav, aside" },
+            { "time": "48:30",   "label": "Formularios",             "desc": "input, textarea, select, validation" },
+            { "time": "1:15:00", "label": "Tablas y listas",         "desc": "table, ul, ol, dl" },
+            { "time": "1:45:00", "label": "Media: imágenes y video", "desc": "img, picture, video, audio" },
+            { "time": "2:10:00", "label": "Accesibilidad ARIA",      "desc": "roles, labels, live regions" }
+          ],
+          "chapters": null
+        },
+
+        {
+          "id": "css-basics",
+          "name": "CSS Base",
+          "icon": "🎨",
+          "desc": "Fundamentos del estilo web: selectores, box model, flexbox, grid y responsive design.",
+          "phase": "Fundamentos",
+          "status": "locked",
+          "mainVideo": {
+            "title": "CSS desde cero — Layouts modernos",
+            "youtubeId": "OXGznpKZ_sA",
+            "duration": "4h 52m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "Selectores y especificidad", "desc": "CSS cascade y herencia" },
+            { "time": "30:00",   "label": "Box Model",                  "desc": "margin, padding, border" },
+            { "time": "1:05:00", "label": "Flexbox completo",           "desc": "flex container y flex items" },
+            { "time": "1:55:00", "label": "CSS Grid",                   "desc": "grid-template, areas" },
+            { "time": "2:40:00", "label": "Responsive Design",          "desc": "media queries, mobile first" },
+            { "time": "3:20:00", "label": "Variables CSS",              "desc": "custom properties y temas" }
+          ],
+          "chapters": null
+        }
+      ]
+    },
+
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "short": "UI",
+      "topics": [
+        {
+          "id": "css-avanzado",
+          "name": "CSS Avanzado",
+          "icon": "✨",
+          "desc": "Animaciones CSS, transforms 3D, Container Queries y técnicas modernas.",
+          "phase": "Frontend",
+          "status": "locked",
+          "mainVideo": {
+            "title": "CSS Avanzado — Animaciones y técnicas modernas",
+            "youtubeId": "OXGznpKZ_sA",
+            "duration": "3h 20m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "Transitions avanzadas", "desc": "cubic-bezier, steps" },
+            { "time": "35:00",   "label": "Keyframe animations",   "desc": "animation shorthand" },
+            { "time": "1:05:00", "label": "Transforms 3D",         "desc": "perspective, rotateX/Y/Z" },
+            { "time": "1:40:00", "label": "Container Queries",     "desc": "El futuro del responsive" }
+          ],
+          "chapters": null
+        },
+
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "icon": "⚡",
+          "desc": "El lenguaje de la web: tipos de datos, funciones, closures, asincronía, DOM API y ES6+ moderno.",
+          "phase": "Frontend",
+          "status": "locked",
+          "mainVideo": {
+            "title": "JavaScript Moderno — ES6+ Completo",
+            "youtubeId": "Qqx_wzMmFeA",
+            "duration": "6h 18m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "Variables y tipos",    "desc": "let, const, tipos primitivos" },
+            { "time": "25:00",   "label": "Funciones y closures", "desc": "scope, hoisting, arrow fns" },
+            { "time": "55:00",   "label": "Arrays y objetos",     "desc": "métodos funcionales" },
+            { "time": "1:30:00", "label": "DOM API",              "desc": "querySelector, events" },
+            { "time": "2:10:00", "label": "Asincronía",           "desc": "callbacks, Promises, async/await" },
+            { "time": "3:00:00", "label": "ES Modules",           "desc": "import, export, bundlers" },
+            { "time": "3:50:00", "label": "Fetch API",            "desc": "HTTP requests y JSON" }
+          ],
+          "chapters": [
+            {
+              "title": "Variables, tipos y funciones",
+              "youtubeId": "Qqx_wzMmFeA",
+              "duration": "50m",
+              "startAt": 0,
+              "highlights": [
+                { "time": "0:00",  "label": "let y const" },
+                { "time": "25:00", "label": "Closures" }
+              ]
+            },
+            {
+              "title": "DOM y Eventos",
+              "youtubeId": "Qqx_wzMmFeA",
+              "duration": "45m",
+              "startAt": 5400,
+              "highlights": [
+                { "time": "1:30:00", "label": "querySelector" },
+                { "time": "1:52:00", "label": "addEventListener" }
+              ]
+            },
+            {
+              "title": "Asincronía y Fetch",
+              "youtubeId": "Qqx_wzMmFeA",
+              "duration": "55m",
+              "startAt": 7800,
+              "highlights": [
+                { "time": "2:10:00", "label": "Promises" },
+                { "time": "3:50:00", "label": "Fetch API" }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "icon": "🔷",
+          "desc": "Tipado estático para JavaScript: interfaces, genéricos, decoradores y proyectos reales.",
+          "phase": "Frontend",
+          "status": "locked",
+          "mainVideo": {
+            "title": "TypeScript — Guía Completa",
+            "youtubeId": "BwuLxPH8IDs",
+            "duration": "4h 10m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "¿Por qué TypeScript?", "desc": "Ventajas del tipado estático" },
+            { "time": "20:00",   "label": "Tipos básicos",        "desc": "string, number, boolean" },
+            { "time": "48:00",   "label": "Interfaces y tipos",   "desc": "type vs interface" },
+            { "time": "1:22:00", "label": "Genéricos",            "desc": "T, U, K generics" },
+            { "time": "2:00:00", "label": "Decoradores",          "desc": "class decorators" }
+          ],
+          "chapters": null
+        }
+      ]
+    },
+
+    {
+      "id": "frameworks",
+      "name": "Frameworks",
+      "short": "FWK",
+      "topics": [
+        {
+          "id": "react",
+          "name": "React",
+          "icon": "⚛️",
+          "desc": "La librería UI más popular: componentes, hooks, estado global con Context y Zustand, y React 18.",
+          "phase": "Frameworks",
+          "status": "locked",
+          "mainVideo": {
+            "title": "React 18 — Curso Completo Moderno",
+            "youtubeId": "SqcY0GlETPk",
+            "duration": "5h 30m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "Componentes y JSX",    "desc": "La unidad básica de React" },
+            { "time": "30:00",   "label": "useState y useEffect", "desc": "Estado y efectos secundarios" },
+            { "time": "1:10:00", "label": "Props y comunicación", "desc": "Parent → Child → Parent" },
+            { "time": "1:50:00", "label": "useContext",           "desc": "Estado global sin librerías" },
+            { "time": "2:30:00", "label": "Custom Hooks",         "desc": "Reutilizar lógica con hooks" },
+            { "time": "3:10:00", "label": "React Router",         "desc": "SPA routing" },
+            { "time": "4:00:00", "label": "Zustand",              "desc": "Estado global simplificado" }
+          ],
+          "chapters": [
+            {
+              "title": "Componentes y JSX",
+              "youtubeId": "SqcY0GlETPk",
+              "duration": "60m",
+              "startAt": 0,
+              "highlights": [
+                { "time": "0:00",  "label": "Tu primer componente" },
+                { "time": "30:00", "label": "useState" }
+              ]
+            },
+            {
+              "title": "Hooks avanzados",
+              "youtubeId": "SqcY0GlETPk",
+              "duration": "65m",
+              "startAt": 4200,
+              "highlights": [
+                { "time": "1:10:00", "label": "useEffect" },
+                { "time": "2:30:00", "label": "Custom Hooks" }
+              ]
+            },
+            {
+              "title": "Estado global y Router",
+              "youtubeId": "SqcY0GlETPk",
+              "duration": "70m",
+              "startAt": 9600,
+              "highlights": [
+                { "time": "3:10:00", "label": "React Router v6" },
+                { "time": "4:00:00", "label": "Zustand" }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "nextjs",
+          "name": "Next.js",
+          "icon": "▲",
+          "desc": "El framework React para producción: SSR, SSG, App Router, Server Components y deploy en Vercel.",
+          "phase": "Frameworks",
+          "status": "locked",
+          "mainVideo": {
+            "title": "Next.js 14 — App Router Completo",
+            "youtubeId": "ZVnjOPwW4ZA",
+            "duration": "4h 45m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "App Router básico", "desc": "pages vs app directory" },
+            { "time": "28:00",   "label": "Server Components", "desc": "RSC y client boundaries" },
+            { "time": "1:05:00", "label": "Data fetching",     "desc": "fetch, cache, revalidate" },
+            { "time": "1:45:00", "label": "Server Actions",    "desc": "Mutations sin API" },
+            { "time": "2:20:00", "label": "Metadata y SEO",    "desc": "head, og:image" }
+          ],
+          "chapters": null
+        }
+      ]
+    },
+
+    {
+      "id": "backend",
+      "name": "Backend",
+      "short": "API",
+      "topics": [
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "icon": "🟢",
+          "desc": "JavaScript en el servidor: event loop, streams, módulos nativos, Express y APIs REST.",
+          "phase": "Backend",
+          "status": "locked",
+          "mainVideo": {
+            "title": "Node.js — Backend Completo",
+            "youtubeId": "Oe421EPjeBE",
+            "duration": "5h 20m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "Event Loop",    "desc": "Concurrencia no bloqueante" },
+            { "time": "35:00",   "label": "Módulos y NPM", "desc": "require, import, package.json" },
+            { "time": "1:10:00", "label": "HTTP nativo",   "desc": "Servidor sin frameworks" },
+            { "time": "1:50:00", "label": "Express.js",    "desc": "Routing y middleware" },
+            { "time": "2:40:00", "label": "APIs REST",     "desc": "CRUD con Express" },
+            { "time": "3:30:00", "label": "JWT Auth",      "desc": "jsonwebtoken y cookies" }
+          ],
+          "chapters": [
+            {
+              "title": "Event Loop y módulos",
+              "youtubeId": "Oe421EPjeBE",
+              "duration": "55m",
+              "startAt": 0,
+              "highlights": [
+                { "time": "0:00",  "label": "Event Loop" },
+                { "time": "35:00", "label": "NPM" }
+              ]
+            },
+            {
+              "title": "Express y REST APIs",
+              "youtubeId": "Oe421EPjeBE",
+              "duration": "70m",
+              "startAt": 4200,
+              "highlights": [
+                { "time": "1:50:00", "label": "Express routing" },
+                { "time": "2:40:00", "label": "API REST" }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "databases",
+          "name": "Databases",
+          "icon": "🗄️",
+          "desc": "SQL con PostgreSQL, NoSQL con MongoDB, ORMs como Prisma y Drizzle, y patrones de diseño.",
+          "phase": "Backend",
+          "status": "locked",
+          "mainVideo": {
+            "title": "Bases de Datos SQL y NoSQL — Completo",
+            "youtubeId": "HXV3zeQKqGY",
+            "duration": "4h 00m"
+          },
+          "highlights": [
+            { "time": "0:00",    "label": "SQL vs NoSQL",     "desc": "¿Cuándo usar cada uno?" },
+            { "time": "25:00",   "label": "PostgreSQL básico", "desc": "CRUD, joins, índices" },
+            { "time": "55:00",   "label": "Normalización",     "desc": "1:N, N:M, foreign keys" },
+            { "time": "1:30:00", "label": "MongoDB",           "desc": "Documentos y colecciones" },
+            { "time": "2:05:00", "label": "Prisma ORM",        "desc": "Schema, migraciones, queries" }
+          ],
+          "chapters": null
+        }
+      ]
+    }
+  ]
+}

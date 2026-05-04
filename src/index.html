@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NETRUNNER // Plataforma de Cursos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Share+Tech+Mono&family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+<link rel="stylesheet" href="./styles/index.css" /></head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       HEADER
+  ══════════════════════════════════════════ -->
+  <header>
+    <div class="logo">NETRUNNER</div>
+    <div class="logo-slash">//</div>
+    <div class="course-title-header" id="header-course-title">
+      FULL_STACK_PROTOCOL v2.4.1
+    </div>
+    <div class="header-status">
+      <div class="status-dot"></div>
+      CONNECTED
+    </div>
+    <div class="header-badge">v2.4 BETA</div>
+  </header>
+
+  <!-- ══════════════════════════════════════════
+       APP BODY
+  ══════════════════════════════════════════ -->
+  <div class="app-body">
+
+    <!-- SIDEBAR -->
+    <aside>
+      <div class="sidebar-header">
+        <div class="phase-label">// NEURAL_TREE</div>
+        <div class="phase-name" id="current-phase-name">INIT</div>
+      </div>
+
+      <div class="phase-tabs" id="phase-tabs"></div>
+
+      <div class="skill-grid-container" id="skill-grid-container"></div>
+
+      <div class="sidebar-progress">
+        <div class="progress-label">
+          <span>// SYNC_RATE</span>
+          <span id="progress-pct">0%</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progress-bar" style="width:0%"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+      <div class="welcome-screen">
+        <div class="welcome-grid-bg"></div>
+        <div style="position:relative">
+          <div class="wc-tl"></div>
+          <div class="wc-tr"></div>
+          <div class="wc-bl"></div>
+          <div class="wc-br"></div>
+          <div class="welcome-content">
+            <div class="welcome-glitch-title">NETRUNNER</div>
+            <div class="welcome-glitch-sub">// SKILL_TREE PROTOCOL</div>
+            <div class="welcome-desc">
+              Selecciona un nodo del árbol neural para inicializar la
+              secuencia de aprendizaje. El sistema espera tus instrucciones.
+            </div>
+            <div class="welcome-hint">◄ SELECCIONA UN NODO ►</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div><!-- /.app-body -->
+
+  <!-- ══════════════════════════════════════════
+       VIDEO MODAL
+  ══════════════════════════════════════════ -->
+  <div class="video-modal" id="video-modal">
+    <div class="video-modal-inner">
+      <div class="video-modal-close" id="modal-close-btn">✕ DISCONNECT</div>
+      <iframe id="modal-iframe" allowfullscreen></iframe>
+      <div class="video-modal-title" id="modal-title"></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       JS MODULES  (type="module" enables ESM)
+  ══════════════════════════════════════════ -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
